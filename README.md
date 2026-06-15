@@ -30,7 +30,7 @@
 | 주차 | 단계 | 주제 | 상태 |
 | --- | --- | --- | --- |
 | 1~4주 | **Step 1: RAG** | 지능 구축 (지식 네트워크) | ✅ Day 1~4 완료 (Step 1 이론 완결) |
-| 5~8주 | **Step 2: Agent** | 자동화 실행 (자율 에이전트) | 🟡 진행 중 (Day 5~6 완료) |
+| 5~8주 | **Step 2: Agent** | 자동화 실행 (자율 에이전트) | 🟡 진행 중 (Day 5~7 완료) |
 
 ### 완료한 강의
 - [x] [Week 1 · Day 1 — RAG의 뿌리 찾기](./lectures/week1/day1-RAG.md)
@@ -39,10 +39,11 @@
 - [x] [Week 1 · Day 4 — 미래 예상 & 파인튜닝/LoRA](./lectures/week1/day4-finetuning-lora.md)
 - [x] [Week 2 · Day 5 — 로컬→클라우드 에이전트 연결 (Antigravity SDK)](./lectures/week2/day5-antigravity-sdk.md)
 - [x] [Week 2 · Day 6 — 데이터 자산화 & 장기기억 (모델·데이터·연결)](./lectures/week2/day6-data-as-asset.md) ⭐
+- [x] [Week 2 · Day 7 — 멀티에이전트 이론과 구현 (지식 공유)](./lectures/week2/day7-multi-agent.md)
 
 > 🎯 **Step 1(RAG) 4부작 완결:** 뿌리(Day1) → 진화(Day2) → 현재(Day3) → 미래(Day4)
 > 📦 **[Week 1 종합 정리 & 치트시트](./lectures/week1/README.md)**
-> 🚀 **Step 2 진입:** Day5(SDK 연결) → Day6(장기기억·데이터 자산화) — "모델은 소비재, 데이터는 자산"
+> 🚀 **Step 2 진입:** Day5(SDK) → Day6(장기기억·데이터 자산) → Day7(멀티에이전트·집단지성)
 
 ---
 

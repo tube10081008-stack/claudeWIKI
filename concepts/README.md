@@ -51,4 +51,12 @@
 | [데이터 자산화](./data-as-asset.md) | "모델은 소비재, 데이터는 자산" 축적 시스템 |
 | [파인튜닝 디버깅](./finetuning-debugging.md) | 3대 함정(bos·과적합·RAM) + 5단계 체크리스트 |
 
+## 🟤 Day 7 — 멀티에이전트 & 지식 공유
+| 개념 | 한 줄 정의 |
+| --- | --- |
+| [멀티에이전트](./multi-agent.md) | 자동화 에이전트의 근간, 많아질수록 멍청해지는 역설, 집단지성 |
+| [지식 공유 패턴](./knowledge-sharing-patterns.md) | MetaGPT(공유게시판)·AgentVerse(공유환경)·EoT(생각교환) |
+| [학습 패러다임](./learning-paradigms.md) | 지도(SFT)·비지도·강화학습 3종 |
+| [스페셜리스트 vs 제너럴리스트](./specialist-vs-generalist.md) | 에이전트 역할별 특화 두뇌 분리 |
+
 > 새 강의를 들을 때마다 개념이 추가됩니다.
