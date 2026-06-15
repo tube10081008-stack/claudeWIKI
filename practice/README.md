@@ -128,3 +128,29 @@ export GEMINI_API_KEY="발급받은_키"   # Windows: set GEMINI_API_KEY=...
 - SDK 저장소 Fork/gfork → 예제 분석 → "유튜브/웹사이트 관리 에이전트 개발" → 권한·삭제금지 설정 실험
 - 저장소: https://github.com/google-antigravity/antigravity-sdk-python
 - **상태:** ⬜ 미완료
+
+---
+
+## Week 2 · Day 6 실습 (페르소나 파인튜닝 & 데이터 자산화) ⭐
+
+### [실습 M] Gemma 4 페르소나 파인튜닝 (Colab)
+- Unsloth로 30개 Q&A 학습 → 나만의 페르소나 AI
+- 핵심 3파라미터 실험: `learning_rate=3e-4` · `max_steps=60` · `lora_alpha=32`
+- **카테고리 황금비율** 지키기(정체성20/전문40/태도20/사례15/잡담5) + 같은 의미 다른 표현 5개+
+- 목표 Loss **0.2~0.5** (과적합<0.01 주의)
+- 실습 Colab: https://colab.research.google.com/drive/1pbV4tmNRiLUgC5kVu3eSRacsakoPKGEW
+- **상태:** ⬜ 미완료
+
+### [실습 N] 3대 함정 디버깅
+- `<bos>` 토큰 일관성 / 과적합·다양성 / GGUF 변환 RAM → [5단계 체크리스트](../concepts/finetuning-debugging.md)로 점검
+- **상태:** ⬜ 미완료
+
+### [실습 O] 배포: GGUF → HF → LM Studio/Ollama
+- `push_to_hub_gguf(..., quantization_method="q4_k_m")` → LM Studio Discover 검색 / `ollama run hf.co/<id>/<model>`
+- **상태:** ⬜ 미완료
+
+### [실습 P] 데이터 축적 시스템 구축 (장기 과제)
+- Google Sheets(`날짜·카테고리·질문·답변·출처·상태`) → 주 30분 루프 → 2주마다 재학습
+- 데이터셋 HF 백업(`private=True`) → 새 모델에 1줄 재학습
+- **목표:** 30개 → 100 → 700 → 1500개+ (대체 불가 디지털 분신)
+- **상태:** ⬜ 진행 중(평생)

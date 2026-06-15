@@ -44,4 +44,11 @@
 | [에이전트 자율성·가드레일](./agent-autonomy.md) | 자율성 수준 + 위험 행동 차단(policy/hook) |
 | [하이브리드 비용 최적화](./hybrid-cost-optimization.md) | 로컬로 요약·클라우드로 최종 → ~98% 절감 |
 
+## 🟣 Day 6 — 데이터 자산화 & 장기기억 (핵심)
+| 개념 | 한 줄 정의 |
+| --- | --- |
+| [단기 vs 장기 기억](./short-vs-long-term-memory.md) | RAG(단기) vs 파인튜닝(장기), RLHF 필터링 |
+| [데이터 자산화](./data-as-asset.md) | "모델은 소비재, 데이터는 자산" 축적 시스템 |
+| [파인튜닝 디버깅](./finetuning-debugging.md) | 3대 함정(bos·과적합·RAM) + 5단계 체크리스트 |
+
 > 새 강의를 들을 때마다 개념이 추가됩니다.
