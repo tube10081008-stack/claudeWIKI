@@ -37,4 +37,11 @@
 | [Unsloth](./unsloth.md) | 무료·저사양에서 LLM 파인튜닝하는 오픈소스 도구 |
 | [미래 RAG & 비즈니스 모델](./future-rag.md) | Knowledge Runtime·SLM+RAG·스타트업 5종 |
 
+## 🔵 Day 5 — 에이전트 SDK & 연결 (Step 2 진입)
+| 개념 | 한 줄 정의 |
+| --- | --- |
+| [Antigravity SDK](./antigravity-sdk.md) | 에이전트를 코드로 정밀 제작 (CLI=사용자, SDK=생산자) |
+| [에이전트 자율성·가드레일](./agent-autonomy.md) | 자율성 수준 + 위험 행동 차단(policy/hook) |
+| [하이브리드 비용 최적화](./hybrid-cost-optimization.md) | 로컬로 요약·클라우드로 최종 → ~98% 절감 |
+
 > 새 강의를 들을 때마다 개념이 추가됩니다.

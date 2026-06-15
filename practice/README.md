@@ -97,3 +97,34 @@
 ### [실습 G] (다음 주 예고) 학습한 두뇌 연결
 - 파인튜닝한 모델을 **LM Studio / Ollama / Connect AI**에 올려 자동화 에이전트의 두뇌로 연결
 - **상태:** ⬜ 예정
+
+---
+
+## Week 2 · Day 5 실습 (Antigravity SDK · 하이브리드)
+
+### [실습 H] 가상환경 + SDK 설치
+```bash
+python3 -m venv venv && source venv/bin/activate
+pip install --upgrade pip
+pip install google-antigravity uvicorn sse-starlette starlette
+export GEMINI_API_KEY="발급받은_키"   # Windows: set GEMINI_API_KEY=...
+```
+- **상태:** ⬜ 미완료
+
+### [실습 I] Hello World 에이전트
+- `Agent` + `LocalAgentConfig`로 첫 에이전트 구동 → "오케이" 응답 확인
+- **상태:** ⬜ 미완료
+
+### [실습 J] 안전 가드 에이전트 (Policy/Hook)
+- `policy.deny("run_command", when=check_command_danger)`로 `rm` 등 위험 명령 자동 차단
+- **상태:** ⬜ 미완료
+
+### [실습 K] 하이브리드 로컬 AI 연결 ⭐
+- LM Studio 모델 Load → `http://127.0.0.1:1234` 서버 → 에이전트 도구로 연결
+- 목표 체감: 클라우드 30만 토큰 → 하이브리드 5천 토큰 (**~98% 절감**)
+- **상태:** ⬜ 미완료
+
+### [실습 L] SDK 예제 Fork → 나만의 에이전트
+- SDK 저장소 Fork/gfork → 예제 분석 → "유튜브/웹사이트 관리 에이전트 개발" → 권한·삭제금지 설정 실험
+- 저장소: https://github.com/google-antigravity/antigravity-sdk-python
+- **상태:** ⬜ 미완료
