@@ -39,6 +39,7 @@
 - [x] [Week 1 · Day 4 — 미래 예상 & 파인튜닝/LoRA](./lectures/week1/day4-finetuning-lora.md)
 
 > 🎯 **Step 1(RAG) 4부작 완결:** 뿌리(Day1) → 진화(Day2) → 현재(Day3) → 미래(Day4)
+> 📦 **[Week 1 종합 정리 & 치트시트](./lectures/week1/README.md)**
 
 ---
 
