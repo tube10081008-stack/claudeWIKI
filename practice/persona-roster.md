@@ -36,10 +36,12 @@
 ### 데이터셋 진행표 (각 30개 → 50 권장)
 | 에이전트 | 분야 | 데이터셋 파일 | 상태 |
 | --- | --- | --- | --- |
-| 코라 | 시적 글쓰기 | `datasets/cora.jsonl` | ✅ 30개 초안 |
-| 핀 | AI 수익화 | `datasets/finn.jsonl` | ⬜ 대기 |
-| 오피 | 솔로프리너 | `datasets/offie.jsonl` | ⬜ 대기 |
-| 리나 | 커뮤니티 모임 | `datasets/rina.jsonl` | ⬜ 대기 |
-| 지오 | 총괄·라우팅 | `datasets/geo.jsonl` | ⬜ 대기 |
+| 코라 | 시적 글쓰기 | `datasets/cora.jsonl` | ✅ 30개 (톤 확정) |
+| 핀 | AI 수익화 | `datasets/finn.jsonl` | ✅ 30개 |
+| 오피 | 솔로프리너 | `datasets/offie.jsonl` | ✅ 32개 |
+| 리나 | 커뮤니티 모임 | `datasets/rina.jsonl` | ✅ 34개 |
+| 지오 | 총괄·라우팅 | `datasets/geo.jsonl` | ⬜ 대기 (라우팅용) |
+
+> 코라 톤 4원칙(차분·진중 반말 / 황금비율 / 사례 절반만 되묻기 / 쉬운 어휘)을 핀·오피·리나에 동일 적용. 총 **126개** 데이터 확보.
 
 > 황금비율(정체성6/전문12/태도6/사례5/잡담1)·형식은 [phase1-persona-dataset](./phase1-persona-dataset.md) 참고.
