@@ -74,3 +74,26 @@
 ### [실습 E] 상업 가능 모델 찾기 (Apache 2.0)
 - **할 일:** Hugging Face에서 라이선스 **Apache 2.0** 필터 → 수익화 가능한 모델(약 44만 개, Gemma 4 등) 탐색
 - **상태:** ⬜ 미완료
+
+---
+
+## Week 1 · Day 4 실습 (Unsloth로 파인튜닝) ⭐숙제
+
+> 오늘은 **실습보다 숙제가 더 중요**. 답이 없는 미래 영역이라 직접 실험해봐야 한다.
+
+### [실습 F] Gemma 4 LoRA 파인튜닝 (Colab 무료)
+- **도구:** Unsloth + Google Colab (런타임 → T4 GPU 무료)
+- **단계:**
+  1. 학습 전 **베이스라인 질문** 던져 모델이 모르는지 확인
+  2. **나만의 데이터** 만들기 — HF 표준(role/user-assistant, JSON) 질문-답변 모범답안 (30→100→1000개+, AI로 생성)
+  3. chat template 적용 → 학습 실행
+  4. **Loss 줄이기** 목표 — 평균 감소 확인 (너무 적으면 과소적합/많으면 과적합)
+  5. learning_rate·max_steps·batch_size·데이터 수를 **막 실험**
+  6. `.py` 다운로드 → 안티그래비티에서 분석·개선
+- **숙제:** 내가 하고 싶은 사업(병원/금융/호텔 등)의 베이스라인 질문에 답하는 **특화 모델** 만들기
+- **실습 자료:** https://colab.research.google.com/drive/1mE2Q4adkqAYNegGeAN3v-7BjO0GSEV2u
+- **상태:** ⬜ 미완료
+
+### [실습 G] (다음 주 예고) 학습한 두뇌 연결
+- 파인튜닝한 모델을 **LM Studio / Ollama / Connect AI**에 올려 자동화 에이전트의 두뇌로 연결
+- **상태:** ⬜ 예정

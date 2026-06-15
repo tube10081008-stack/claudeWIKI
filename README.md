@@ -29,13 +29,16 @@
 
 | 주차 | 단계 | 주제 | 상태 |
 | --- | --- | --- | --- |
-| 1~4주 | **Step 1: RAG** | 지능 구축 (지식 네트워크) | 🟡 진행 중 (Day 1~3 완료) |
+| 1~4주 | **Step 1: RAG** | 지능 구축 (지식 네트워크) | ✅ Day 1~4 완료 (Step 1 이론 완결) |
 | 5~8주 | **Step 2: Agent** | 자동화 실행 (자율 에이전트) | ⚪ 예정 |
 
 ### 완료한 강의
 - [x] [Week 1 · Day 1 — RAG의 뿌리 찾기](./lectures/week1/day1-RAG.md)
 - [x] [Week 1 · Day 2 — 진화의 시작: Self-RAG & Graph RAG](./lectures/week1/day2-self-rag-graph-rag.md)
 - [x] [Week 1 · Day 3 — Agentic RAG: 추론과 자율성](./lectures/week1/day3-agentic-rag.md)
+- [x] [Week 1 · Day 4 — 미래 예상 & 파인튜닝/LoRA](./lectures/week1/day4-finetuning-lora.md)
+
+> 🎯 **Step 1(RAG) 4부작 완결:** 뿌리(Day1) → 진화(Day2) → 현재(Day3) → 미래(Day4)
 
 ---
 

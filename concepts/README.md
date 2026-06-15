@@ -28,4 +28,13 @@
 | [양자화 (Quantization)](./quantization.md) | 지능 유지하며 모델 크기 압축 |
 | [사전훈련·파인튜닝·LoRA](./finetuning-lora.md) | 모델을 내 목적에 맞게 만드는 3가지 방법 |
 
+## 🔴 Day 4 — 미래 & 파인튜닝
+| 개념 | 한 줄 정의 |
+| --- | --- |
+| [RAG vs 파인튜닝](./rag-vs-finetuning.md) | 검색해 가져오기 vs 두뇌 자체 바꾸기 (보완 관계) |
+| [과적합·과소적합](./overfitting-underfitting.md) | 학습량이 과하면 꼰대화, 부족하면 인식 실패 |
+| [학습 파라미터](./training-params.md) | 가중치·로스·learning rate·max steps·batch size |
+| [Unsloth](./unsloth.md) | 무료·저사양에서 LLM 파인튜닝하는 오픈소스 도구 |
+| [미래 RAG & 비즈니스 모델](./future-rag.md) | Knowledge Runtime·SLM+RAG·스타트업 5종 |
+
 > 새 강의를 들을 때마다 개념이 추가됩니다.
