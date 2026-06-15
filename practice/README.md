@@ -37,3 +37,40 @@
 ---
 
 > 💡 실습하며 "뭔가 부족하다"고 느낀 지점을 메모해두면, 다음 단계(Graph RAG)에서 해소됩니다.
+
+---
+
+## Week 1 · Day 2 실습 (Self-RAG & Graph RAG)
+
+### [실습 A] Self-RAG '자가 검증' 체험
+- **도구:** 커넥트 AI (전용 파일 2.5 버전 설치 → `Ctrl+Shift+P → Install from VSIX`)
+- **할 일:** AI 1인 기업 모드에서 에이전트가 모은 지식에 **'자가 검증 켜기'** 적용 →
+  [4기준(isRetrieve/isRelevant/isSupported/isUseful)](../concepts/self-rag.md)으로 걸러지는지 관찰
+- **상태:** ⬜ 미완료
+
+### [실습 B] 지식 네트워크(Graph) 시각화 관찰
+- **도구:** 안티그래비티 / 옵시디언 '지식 네트워크 보기'
+- **할 일:** `raw`(내가 주입) vs `agent`(에이전트가 모음) 폴더가 어떻게 연결됐는지,
+  **루트 커뮤니티 vs 서브 커뮤니티** 패턴 관찰 → "왜 이렇게 연결됐지?" 탐구
+- **상태:** ⬜ 미완료
+
+---
+
+## Week 1 · Day 3 실습 (Agentic RAG · 로컬 모델)
+
+### [실습 C] 이미지 생성 로컬 모델 (Hugging Face + Colab)
+- **모델:** `JSCPPProgrammer/z-anime-distill8-gradio-zerogpu` (애니메이션 증류 모델)
+- **권장 설정:** Steps **8** / CFG **1.0~1.5** / Sampler **Euler_a** / Scheduler **Beta** / Denoise **1.0** / **FP8**
+  - ⚠️ Steps·CFG를 일반값(7.0+)으로 올리면 색상 붕괴(이미지 타버림)
+- **할 일:** Space에서 프롬프트 생성 → `Use this model → Colab`에서 T4 GPU(무료)로 실행 →
+  큰 모델 실패 시 [양자화](../concepts/quantization.md)/Least-parameters 버전으로 대체
+- **링크:** https://huggingface.co/spaces/JSCPPProgrammer/z-anime-distill8-gradio-zerogpu
+- **상태:** ⬜ 미완료
+
+### [실습 D] 음악 생성 모델 테스트
+- **모델:** `ACE-Step/acestep-v15-xl-turbo` (핫한 음악 생성)
+- **상태:** ⬜ 미완료
+
+### [실습 E] 상업 가능 모델 찾기 (Apache 2.0)
+- **할 일:** Hugging Face에서 라이선스 **Apache 2.0** 필터 → 수익화 가능한 모델(약 44만 개, Gemma 4 등) 탐색
+- **상태:** ⬜ 미완료
