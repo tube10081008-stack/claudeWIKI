@@ -34,6 +34,7 @@
 | [RAG vs 파인튜닝](./rag-vs-finetuning.md) | 검색해 가져오기 vs 두뇌 자체 바꾸기 (보완 관계) |
 | [과적합·과소적합](./overfitting-underfitting.md) | 학습량이 과하면 꼰대화, 부족하면 인식 실패 |
 | [학습 파라미터](./training-params.md) | 가중치·로스·learning rate·max steps·batch size |
+| [데이터가 적어도 되는 이유](./why-finetuning-needs-little-data.md) | 뇌는 이미 완성, 0.96%만 덧칠해 '역할' 입히기 |
 | [Unsloth](./unsloth.md) | 무료·저사양에서 LLM 파인튜닝하는 오픈소스 도구 |
 | [미래 RAG & 비즈니스 모델](./future-rag.md) | Knowledge Runtime·SLM+RAG·스타트업 5종 |
 
